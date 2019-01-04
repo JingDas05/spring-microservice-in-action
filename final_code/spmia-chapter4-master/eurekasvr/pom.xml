@@ -58,6 +58,7 @@
                          <goal>copy-resources</goal>
                      </goals>
                      <configuration>
+                         <!--src/main/docker 拷贝到 ${basedir}/target/dockerfile-->
                          <outputDirectory>${basedir}/target/dockerfile</outputDirectory>
                          <resources>
                              <resource>

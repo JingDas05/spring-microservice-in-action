@@ -18,7 +18,8 @@ spring:
       discovery:
         enabled: true
       server:
-        encrypt.enabled: false
+#        encrypt.enabled: false
+        encrypt.enabled: true
         git:
           uri: https://github.com/carnellj/config-repo/
           searchPaths: licensingservice,organizationservice
