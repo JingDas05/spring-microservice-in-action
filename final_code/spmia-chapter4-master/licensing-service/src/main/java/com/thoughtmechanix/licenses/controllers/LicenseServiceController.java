@@ -36,6 +36,7 @@ public class LicenseServiceController {
         return licenseService.getLicense(organizationId, licenseId, "");
     }
 
+    // 测试根据不同的 clientType 获取数据
     @RequestMapping(value="/{licenseId}/{clientType}",method = RequestMethod.GET)
     public License getLicensesWithClient( @PathVariable("organizationId") String organizationId,
                                           @PathVariable("licenseId") String licenseId,
